@@ -1,0 +1,12 @@
+
+src/styles/colleagueForm.css
+/*(F12) ב כדי למצוא פיתרון - נתן לי כיוון ואז שימוש בבדיקהCHATGPTשימוש ב  */
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input{
+  text-align: right;
+}
+
+שישוש לנסח README.md 
+
+src/components/MapView.js
+כאשר הוספתי את  הסמן להציג את המיקום- זה הראה לי כל הזמן כתמונה שלא הצליחה להיטאן.
+הסתבחתי וCHATGPT נתן לי כיוון לעבוד טוב- עם הדיפאלט- כמו שכתוב באתר של leaflet/

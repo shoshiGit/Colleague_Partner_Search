@@ -17,7 +17,7 @@ function MapView({ position }) {
 
   useEffect(() => {
     if(mapRef.current){
-        mapRef.current.setView(position, 13);
+        mapRef.current.flyTo(position, 13,  { animate: true, duration: 1 });
     }
   }, [position]);
 

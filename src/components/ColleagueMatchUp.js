@@ -96,7 +96,15 @@ function ColleagueMatchUp() {
   };
 
   useEffect(() => {
-  }, [position]);
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setPosition([position.coords.latitude, position.coords.longitude]);
+      });
+    }
+  }, []);
+
+  // useEffect(() => {
+  // }, [position]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
