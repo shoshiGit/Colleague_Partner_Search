@@ -1,0 +1,110 @@
+/*(F12) ב כדי למצוא פיתרון - נתן לי כיוון ואז שימוש בבדיקהCHATGPTשימוש ב  */
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input{
+  text-align: right;
+}
+
+.colleague-form {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 2em 0;
+  }
+  
+  .header {
+    margin-top: 3em;
+    text-align: center;
+    color: #2a73e0;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .form-container {
+      background-color: #ffffff;
+      padding: 32px;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      text-align: right;
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .form-container:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  /* .checkbox-group {
+    margin-bottom: 1em;
+  } */
+  
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  /* .checkbox-icon {
+    margin-right: 8px;
+  } */
+  
+  .submit-button {
+    background-color: #2a73e0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  .submit-button:hover {
+      background-color: #1a5dc3;
+      transform: translateY(-2px);
+  }
+  input, label, select {
+      font-size: 1rem;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 8px;
+      box-sizing: border-box;
+      transition: border-color 0.2s ease-in-out;
+  }
+  
+  input[type="text"]:focus, 
+  input[type="email"]:focus, 
+  input[type="number"]:focus {
+      border-color: #2a73e0;
+      outline: none;
+  }
+  
+  h2 {
+      color: #2a73e0;
+      font-size: 1.5em;
+      text-align: center;
+      margin-bottom: 1em;
+      font-weight: normal;
+  }
+  input{
+    text-align: right;
+    cursor: default;
+  }
+  Search input{
+    text-align: right;
+    
+  }
+  ::-webkit-search-decoration{
+    text-align: right;
+    
+  }
+  input{
+    cursor:text;
+  }
+  .form-container {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+  
